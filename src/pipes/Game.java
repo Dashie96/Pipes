@@ -2,17 +2,13 @@ package pipes;
 
 import java.util.Random;
 /**
- *  This class is the main class of the "World of Zuul" application. 
- *  "World of Zuul" is a very simple, text based adventure game.  Users 
- *  can walk around some scenery. That's all. It should really be extended 
- *  to make it more interesting!
- * 
- *  To play this game, create an instance of this class and call the "play"
- *  method.
- * 
- *  This main class creates and initialises all the others: it creates all
- *  rooms, creates the parser and starts the game.  It also evaluates and
- *  executes the commands that the parser returns.
+ *  * ----------------------------------------------------------------------------
+ * "THE BEER-WARE LICENSE" (Revision 43):
+ * <Eric.Slaweski@gmail.com> (And Friends) wrote this file. As long as you retain this notice 
+ * you can do whatever you want with this stuff. If we meet some day, and you 
+ * think this stuff is worth it, you can buy me (or the other people mentioned in this file
+ * as authors)a beer in return.                             Eric Slaweski (and Friends)
+ * ----------------------------------------------------------------------------
  * 
  * @author  Andrew Eric Jake and Nicholas.
  * @version 2011.07.31
