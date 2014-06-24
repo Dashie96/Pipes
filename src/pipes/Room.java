@@ -3,17 +3,14 @@ package pipes;
 import java.util.HashMap;
 import java.util.Set;
 /**
- * Class Room - a room in an adventure game.
- *
- * This class is part of the "World of Zuul" application.
- * "World of Zuul" is a very simple, text based adventure game.  
- *
- * A "Room" represents one location in the scenery of the game.  It is
- * connected to other rooms via exits.  The exits are labelled north,
- * east, south, west.  For each direction, the room stores a reference
- * to the neighboring room, or null if there is no exit in that direction.
- *
- * @author  Michael Kölling and David J. Barnes
+ * ---------------------------------------------------------------------------
+ * "THE BEER-WARE LICENSE" (Revision 42):
+ * <Eric.Slaweski@gmail.com> wrote this file. As long as you retain this notice 
+ * you can do whatever you want with this stuff. If we meet some day, and you 
+ * think this stuff is worth it, you can buy me a beer in return. Eric Slaweski
+ * ----------------------------------------------------------------------------
+ * 
+ * @author  Eric Slaweski
  * @version 2011.07.31
  */
 public class Room
@@ -53,8 +50,7 @@ public class Room
   }
 
   /**
-   * Return a long description of this room, in the form:
-   *  You are in the kitchen.
+   * Return a long description of this room
    *  Exits: north west
    *@return: A description of the room including exits.
    */
@@ -85,7 +81,7 @@ public class Room
 
   /**
    * Return a string describing the room's exits
-   * e.g. "Exits : north east"
+   * e.g. "Exits : north east up"
    */
   public String getExitString()
   {
