@@ -2,7 +2,6 @@ package pipes;
 
 
 /**
- *
  * ----------------------------------------------------------------------------
  * "THE BEER-WARE LICENSE" (Revision 42):
  * <Eric.Slaweski@gmail.com> wrote this file.As long as you retain this notice 
